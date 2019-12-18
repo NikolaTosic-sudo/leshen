@@ -1,0 +1,53 @@
+body {
+    background-image: url(../images/leshenbg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.wrapper {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: rgba(0, 0, 0, 0.788);
+    border: 3px rgb(88, 100, 83) dashed;
+}
+
+.desc {
+    margin: 20px;
+}
+
+.t {
+    color: #a02228;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: 'Girassol', cursive;
+    letter-spacing: 7px;
+}
+
+@media screen and (min-width: 1078px) {
+    .logo {
+        width: 500px !important;
+    }
+}
+
+.card {
+    border: none;
+}
+
+.title {
+    margin: 30px;
+    color: rgb(143, 27, 27);
+    font-family: 'Girassol', cursive;
+    letter-spacing: 2px;
+}
+
+.section {
+    font-family: 'Merriweather', serif;
+    letter-spacing: 0.7px;
+}
+
+.da {
+    background-color: black;
+    color: white;
+    height: 100px;
+}
